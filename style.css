@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navigate{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+.navigate a:hover{
+    text-decoration: underline ;
+}
+.noBorder{
+    border: 0 !important;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.card-title1{
+    font-size: 80px;
+    font-family: omnes-cond, Roboto, sans-serif;
+    padding-left: 250px;
+    padding-top: 200px;
+    
+}
+.need{
+    padding: 40px !important;
+}
+.wHead{
+    color: rgb(28,92,72);
+    font-size: 34px;
+}
+.wPara{
+    font-size: 16px;
+    line-height: 27px;
+}
+.bColor{
+    background-color: #48e8b5 !important;
+}
+.bColor:hover{
+background-color: #693d3b !important;
+}
+.myGround{
+    padding: 40px;
+background-color: #c4a58b;
+}
+.cPara{
+    color: #693d3b;
+    font-size: 16px;
+    line-height: 27px;
+}
+.myCol1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.short{
+    width: 100px;
+}
+.span{
+    font-size: 34px;
+    line-height: 65px;
+    color: #48e985;
+}
+.spanP{
+    font-size: 18px;
+    line-height: 26px;
+}
+.myCard{
+    background-image: url(images/bg2-2.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 500px;
+    padding: 100px 140px 100px 140px !important;
+}
+.myCard2{
+    height: 280px;
+    margin: 100px 140px 100px 140px !important;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+ul li{
+    font-size: 18px;
+    line-height: 26px;
+}
+.ul2 a{
+    text-decoration: none;
+    color: #48e8b5;
+    font-size: 14px;
+}
+.ul2 a:hover{
+    color: #693d3b;
+}
+
+.ul2{
+    justify-content: space-between !important;
+}
+@media(max-width: 1200px){
+    .card-title1{
+        font-size: 40px;
+        padding-left: 10px;
+        padding-top: 120px;
+}
+.myCard{
+    padding:40px 60px 40px 60px !important;
+}
+.myCard2{
+    margin:40px 60px 40px 60px !important;
+}
+.vanish{
+    display: none;
+}
+.need{
+    width: 50%;
+}
+}
+@media(max-width: 992px){
+    .card-title1{
+        font-size: 40px;
+        padding-left: 10px;
+        padding-top: 90px;
+}
+.myCard{
+    padding:20px 30px 20px 30px !important;
+}
+.myCard2{
+    margin:20px 30px 20px 30px !important;
+}
+}
+@media(max-width: 768px){
+    .card-title1{
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top:60px;
+}
+    .ul2 a{
+        display: flex;
+        flex-direction: column;
+    }
+    .need{
+        width: 100%;
+    }
+}
+@media(max-width: 430px){
+    .card-title1{
+        font-size: 30px;
+        padding-left: 10px;
+}
+}
+
+
+@media(max-width: 576px){
+    .card-img{
+        height: 300px;
+    }
+}
